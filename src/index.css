@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  color: #00796b;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* List Item Styles */
+li {
+  margin: 15px 0;
+}
+
+/* Button Styles */
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #00796b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #004d40;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Styles */
+.card {
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
